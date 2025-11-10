@@ -150,8 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myId: -1
   Velocidade: 10
-  localCube: {fileID: 251716031}
-  remoteCube: {fileID: 1866964910}
+  localCube: {fileID: 1866964910}
+  remoteCube: {fileID: 251716031}
   bola: {fileID: 982695413}
 --- !u!4 &44586298
 Transform:
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   textoPontoB: {fileID: 125305615}
   VitoriaLocal: {fileID: 1239979855}
   VitoriaRemote: {fileID: 714300591}
-  velocidade: 15
+  velocidade: 9
   fatorDesvio: 2
 --- !u!1 &1067856764 stripped
 GameObject:
