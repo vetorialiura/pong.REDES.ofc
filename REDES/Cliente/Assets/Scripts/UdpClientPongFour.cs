@@ -49,7 +49,7 @@ public class UdpClientPongFour : MonoBehaviour
        }
       
        client = new UdpClient();
-       serverEP = new IPEndPoint(IPAddress.Parse("10.57.1.35"), 5001); // ALTERE PARA O IP DO SERVIDOR
+       serverEP = new IPEndPoint(IPAddress.Parse("10.57.1.75"), 5001); // ALTERE PARA O IP DO SERVIDOR
        client.Connect(serverEP);
       
        receiveThread = new Thread(ReceiveData);
